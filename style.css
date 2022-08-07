@@ -1,0 +1,31 @@
+body{
+    background-color: #ebd234;
+}
+
+h1{
+    background-color: cornsilk;
+    color: blue;
+}
+
+#show_sketch{
+    float: right;
+}
+
+@keyframes thor{
+    from{box-shadow: 1px 1px 38px white;}
+    to{box-shadow: 1px 1px 38px rgb(205, 195, 195);}
+}
+
+canvas{
+  border: 5px solid white;
+  border-radius: 20px;
+  margin-top: 50px;
+  animation-name: thor;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+p{
+    font-size: 25px;
+    padding-top: 10px;
+}
